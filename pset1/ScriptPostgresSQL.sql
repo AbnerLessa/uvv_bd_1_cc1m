@@ -23,7 +23,7 @@ WITH
 
 -- Entre com o usuário e crie o SCHEMA 'hr'
 
-psql -u abner uvv
+psql -U abner uvv
   2022
 
 CREATE SCHEMA hr
