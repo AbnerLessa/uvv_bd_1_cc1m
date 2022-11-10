@@ -271,7 +271,7 @@ REFERENCES empregados (id_empregado)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION;
 
--O último passo é inserir os dados no Banco de Dados uvv.
+-- O último passo é inserir os dados no Banco de Dados uvv.
 
 INSERT INTO regioes (id_regiao, nome) VALUES
 (1,'Europe');
