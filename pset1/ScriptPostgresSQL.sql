@@ -9,7 +9,7 @@ ALTER USER abner with createdb;
 ALTER USER abner with superuser;
 
 
--Depois de criar um usuário faça a criação do banco de dados "uvv" e o ligue ao usuário.
+-- Depois de criar um usuário faça a criação do banco de dados "uvv" e o ligue ao usuário.
 
 CREATE DATABASE uvv
 WITH 
