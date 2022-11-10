@@ -3,7 +3,7 @@
 mysql -U root -p
 computacao@raiz
 
--Depois temos que criar o usuário e dar os privilégios para o mesmo.
+-- Depois temos que criar o usuário e dar os privilégios para o mesmo.
 
 CREATE USER 'abner'@'localhost' IDENTIFIED BY '2022';
 
