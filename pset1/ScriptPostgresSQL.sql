@@ -3,7 +3,8 @@
 psql -U postgres
 computacao@raiz
 
--Criar o usuário e dar as permissões necessárias para depois criar um Banco de Dados
+-- Criar o usuário e dar as permissões necessárias para depois criar um Banco de Dados
+
 CREATE USER abner with password '2022';
 ALTER USER abner with createdb;
 ALTER USER abner with superuser;
