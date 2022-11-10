@@ -253,7 +253,7 @@ ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
--O ultimo passo é colocar os dados no Banco de Dados 'hr'
+-- O ultimo passo é colocar os dados no Banco de Dados 'hr'
 
 INSERT INTO regioes (id_regiao, nome) VALUES
 (1,'Europe');
