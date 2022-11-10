@@ -1,6 +1,6 @@
 -- O primeiro passo é abrir o Terminal e entrar no Maria/DB.
 
-mysql -U root -p
+mysql -u root -p
 computacao@raiz
 
 -- Depois temos que criar o usuário e dar os privilégios para o mesmo.
