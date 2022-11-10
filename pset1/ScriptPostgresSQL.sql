@@ -1,4 +1,4 @@
--A primeira coisa a se fazer é abrir o Terminal e entrar no Postgres/SQL.
+-- A primeira coisa a se fazer é abrir o Terminal e entrar no Postgres/SQL.
 
 psql -U postgres
 computacao@raiz
@@ -20,7 +20,7 @@ WITH
     LC_CTYPE = 'pt_BR.UTF-8'
     ALLOW_CONNECTIONS = TRUE;
 
--Entre com o usuário e crie o SCHEMA 'hr'
+-- Entre com o usuário e crie o SCHEMA 'hr'
 
 psql-u abner uvv
   2022
@@ -35,7 +35,7 @@ SHOW SEARCH_PATH;
 
 
 
--Depois de criar o SCHEMA , devemos implementar o projeto 'hr' feito no Power Architect.
+-- Depois de criar o SCHEMA , devemos implementar o projeto 'hr' feito no Power Architect.
 
 CREATE TABLE hr.cargos (
                 id_cargo VARCHAR(10) NOT NULL,
