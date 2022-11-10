@@ -1,4 +1,4 @@
--O primeiro passo é abrir o Terminal e entrar no Maria/DB.
+-- O primeiro passo é abrir o Terminal e entrar no Maria/DB.
 
 mysql -U root -p
 computacao@raiz
@@ -11,7 +11,7 @@ GRANT ALL ON *.* TO 'abner'@'localhost';
 
 exit
 
--Agora entramos no usuário para criarmos o Banco de Dados e logo depois para usa-lo.
+-- Agora entramos no usuário para criarmos o Banco de Dados e logo depois para usa-lo.
 
 mysql -u abner -p
 2022
@@ -20,7 +20,7 @@ CREATE DATABASE uvv;
 
 USE uvv;
 
--Agora criamos as tabelas do Banco de Dados uvv
+-- Agora criamos as tabelas do Banco de Dados uvv
 
 
 CREATE TABLE cargos (
