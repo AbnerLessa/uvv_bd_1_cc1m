@@ -28,11 +28,11 @@ psql -U abner uvv
 
 CREATE SCHEMA hr
 AUTHORIZATION abner;
-SHOW SEARCH_PATH;
-SELECT CURRENT_SCHEMA();
+
 SET SEARCH_PATH TO hr, "$user", public;
+
 ALTER USER abner SET SEARCH_PATH TO hr, "$user", public;
-SHOW SEARCH_PATH;
+
 
 
 
